@@ -1,0 +1,106 @@
+
+body {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f8bbd0 100%);
+  color: #222;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1976d2 60%, #f06292 100%) !important;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.1);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffd54f !important;
+}
+
+.card {
+  box-shadow: 0 2px 12px rgba(33, 150, 243, 0.08);
+  border-radius: 12px;
+  background: #fff;
+}
+.card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1976d2;
+}
+.card-text {
+  color: #333;
+}
+
+.table {
+  background: #f3e5f5;
+  color: #222;
+}
+.table thead {
+  background: #1976d2;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f8bbd0;
+}
+.table-bordered {
+  border: 2px solid #1976d2;
+}
+
+.btn-success, .btn-primary, .btn-info, .btn-warning, .btn-danger {
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(33, 150, 243, 0.12);
+}
+.btn-success {
+  background: linear-gradient(90deg, #43a047 60%, #ffd54f 100%);
+  color: #fff;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #1976d2 60%, #f06292 100%);
+  color: #fff;
+}
+.btn-info {
+  background: linear-gradient(90deg, #0288d1 60%, #b2ebf2 100%);
+  color: #fff;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffa000 60%, #ffd54f 100%);
+  color: #fff;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #d32f2f 60%, #f8bbd0 100%);
+  color: #fff;
+}
+
+a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color: #f06292;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
